@@ -1,6 +1,6 @@
 package dominio;
 
-public class usuario {
+public class Usuario {
     //Atributos de la clase 
     private int codigo;
     private String nombreUsuario;
@@ -8,7 +8,7 @@ public class usuario {
     private int rol;
     private boolean estado;
     
-    public usuario(int pCodigo,String pNombreUsuario,String pClave,int pRol) {
+    public Usuario(int pCodigo,String pNombreUsuario,String pClave,int pRol) {
         this.setCodigo(pCodigo);
         this.setNombreUsuario(pNombreUsuario);
         this.setClave(pClave);

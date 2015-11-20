@@ -97,9 +97,9 @@ public class jDlgMantSeguros extends JDialog implements ActionListener, ItemList
                     jBotSalir_actionPerformed(e);
                 }
             });
-        jRdioVida.setText("Vida");
+        jRdioVida.setText("Linea Vida");
         jRdioVida.setBounds(new Rectangle(115,120,45,40));
-        jRdioDanos.setText("Daños");
+        jRdioDanos.setText("Linea Daños");
         jRdioDanos.setBounds(new Rectangle(180,120,60,40));
         jRdioColectivo.setText("Colectivo");
         jRdioIndividual.setText("Individual");
