@@ -82,8 +82,8 @@ public class jFrmMenuPrincipal extends JFrame {
         System.exit(0);
     }
     private void jMnuMantenimientoSeguros_actionPerformed(ActionEvent e) {
-        jPanManSeguros ojPanManSeguros = new jPanManSeguros();
-        UtilitarioVentana.getInstance().centrarVentana(this, "Mantenimiento de Seguros",ojPanManSeguros,oEscritorioPane);
+        jFrmManSeguros ojFrmManSeguros = new jFrmManSeguros();
+        UtilitarioVentana.getInstance().centrarVentana(ojFrmManSeguros);
     }
 
     private void jMnuMantenimientoAsegurados_actionPerformed(ActionEvent e) {

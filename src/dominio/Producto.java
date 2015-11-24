@@ -7,7 +7,7 @@ public class Producto {
     private String descripcionProducto;
     private String codigoAutorizacion;
     private String lineaSeguro;
-    private String Modalidad;
+    private String modalidad;
     private double montoMinimo;
     private double montoMaximo;
     private int tasaFactor;
@@ -56,11 +56,11 @@ public class Producto {
     }
 
     public void setModalidad(String Modalidad) {
-        this.Modalidad = Modalidad;
+        this.modalidad = Modalidad;
     }
 
     public String getModalidad() {
-        return Modalidad;
+        return modalidad;
     }
 
     public void setMontoMinimo(double montoMinimo) {

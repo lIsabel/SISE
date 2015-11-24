@@ -43,7 +43,7 @@
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
       <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
    </list>
-   <value n="defaultPackage" v="prjproyectoprogra2"/>
+   <value n="defaultPackage" v="sistemaIntegradoSeguros_SISE"/>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
          <string v="Java"/>
